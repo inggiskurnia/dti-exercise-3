@@ -2,36 +2,35 @@ public class Main {
     public static void main(String[] args) {
 
         //First question
-        Number.findTotal();
+        //Number.findTotal();
 
         //Second question
-        Prime.checkPrime();
+        //Prime.checkPrime();
 
         //Third question
-        LargestElement.findLargest();
+        //LargestElement.findLargest();
 
         //Forth question
-        Calculator.calc();
+        //Calculator.calc();
 
         //Fifth question
-        ReverseString.reverse();
+        //ReverseString.reverse();
 
         //Sixth question
-        FIbbonaci.findFibo();
+        //FIbbonaci.findFibo();
 
         //Seventh question
-        Vowels.findVowels();
+        //Vowels.findVowels();
 
         //Eight question
         BubbleShort.findOrder();
 
         //Ninth question
-        Annagram.anagram();
+        //Annagram.anagram();
 
         //Tenth question
-        SecondSmallest.findIt();
+        //SecondSmallest.findIt();
 
     }
-
 
 }

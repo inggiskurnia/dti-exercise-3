@@ -15,15 +15,27 @@ public class BubbleShort {
         }
         System.out.println("Your array number is " + Arrays.toString(numbersArray));
 
+        boolean swapped;
+
         for(int i=0; i<numbers-1; i++) {
+            swapped = false;
 
-            int a = numbersArray[i];
-            int b = numbersArray[i+1];
+            for (int j=0; j<numbers-1; j++) {
 
-            if(numbersArray[i] > numbersArray[i+1]){
-                numbersArray[i] = b;
-                numbersArray[i+1] = a;
+                if(numbersArray[j] > numbersArray[j+1]){
+
+                    //temp variable
+                    int a = numbersArray[j];
+                    int b = numbersArray[j+1];
+
+                    numbersArray[j] = b;
+                    numbersArray[j+1] = a;
+                    swapped = true;
+                }
             }
+        if (!swapped) {
+            break;
+        }
         }
 
         System.out.println("Your sorted array is : " + Arrays.toString(numbersArray));
